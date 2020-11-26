@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+
+
+
+
+<h1>User</h1>
+<form id = "user" action="/users" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="number" name="age" placeholder="age">
+    <input type="text" name="story" placeholder="Written Story">
+    <button type="submit">Add</button>
+</form>
+
+<!--
+<h1>Story</h1>
+<form id = "story" action="/stories" method="POST">
+    <input type="text" name="title" placeholder="title">
+    <button type="submit">Create</button>
+</form
+-->
+
+<%- include("partials/footer") -%>
